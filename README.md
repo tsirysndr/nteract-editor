@@ -5,11 +5,11 @@ This package contains components for rendering CodeMirror editors in our nteract
 ## Installation
 
 ```
-$ yarn add git+https://npm:yDD45DKaM_4CWqCEkZLE@gitlab.com/Smartpredict/nteract-editor.git
+$ yarn add git+https://github.com/tsirysndr/nteract-editor.git
 ```
 
 ```
-$ npm install --save git+https://npm:yDD45DKaM_4CWqCEkZLE@gitlab.com/Smartpredict/nteract-editor.git
+$ npm install --save git+https://github.com/tsirysndr/nteract-editor.git
 ```
 
 ## Usage
