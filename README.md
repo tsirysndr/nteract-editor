@@ -1,4 +1,4 @@
-# @nteract/editor
+# nteract-editor
 
 This package contains components for rendering CodeMirror editors in our nteract applications. To see this package in action, you can view the source code for the [nteract play application](https://github.com/nteract/play).
 
