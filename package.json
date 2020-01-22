@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Kyle Kelley",
+    "email": "rgbkrk@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@nteract/messaging": "^6.2.1",
+    "@nteract/outputs": "^3.0.0",
+    "codemirror": "5.50.0",
+    "lodash.debounce": "^4.0.8",
+    "rxjs": "^6.3.3",
+    "styled-components": "^4.1.3"
+  },
+  "deprecated": false,
+  "description": "The editor that lives inside cells in nteract",
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6"
+  },
+  "gitHead": "fbd63230a3712a82cf97e05aa445aa986c6ddd1f",
+  "keywords": [
+    "nteract",
+    "editor",
+    "notebook",
+    "jupyter"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "lib/index.js",
+  "name": "@nteract/editor",
+  "nteractDesktop": "src/index.tsx",
+  "peerDependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Smartpredict/nteract-editor"
+  },
+  "scripts": {},
+  "types": "lib/index.d.ts",
+  "version": "9.4.1"
+}
