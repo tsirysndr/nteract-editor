@@ -261,6 +261,10 @@ export default class CodeMirrorEditor extends React.PureComponent<
     this.cm.on("focus", this.focusChanged.bind(this, true));
     this.cm.on("blur", this.focusChanged.bind(this, false));
     this.cm.on("change", this.codemirrorValueChanged.bind(this));
+    this.cm.on("keyup", (editor) => { 
+        this.debounceNextCompletionRequest = false;
+        return editor.execCommand("autocomplete");
+    })
 
     this.completionSubject = new Subject<CodeCompletionEvent>();
 
